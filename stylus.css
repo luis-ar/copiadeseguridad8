@@ -1,0 +1,341 @@
+.contenedor {
+  border: solid 7px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 250px;
+  position: fixed;
+  bottom: 100px;
+  right: 80px;
+}
+.dani {
+  position: absolute;
+  left: 150px;
+  border: solid rgba(210, 105, 30, 0);
+  border-radius: 50px;
+}
+
+.confirmar {
+  font-family: "Press Start 2P", cursive;
+}
+.circuito-elegida {
+  font-family: "Press Start 2P", cursive;
+}
+button {
+  font-family: "Press Start 2P", cursive;
+}
+.padre {
+  font-family: "Abril Fatface", cursive;
+}
+.datos_usuario {
+  font-size: 35px;
+}
+.datos_usuario1 {
+  font-size: 25px;
+}
+.imagen {
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  position: absolute;
+  bottom: -60px;
+  height: 150px;
+  width: 350px;
+}
+.pantalla {
+  height: 100px;
+  width: 380px;
+  border: solid 3px black;
+  border-radius: 20px;
+  padding-left: 20px;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgb(54, 214, 80);
+}
+.modificacion {
+  width: 200px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 10px 5px rgb(11, 207, 28);
+  margin-right: 55px;
+}
+.aparatos {
+  width: 80px;
+  height: 40px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 254, 254);
+  box-shadow: 0 0 10px 5px rgb(11, 207, 28);
+}
+body {
+  background-image: url(imagen/estrellitas.gif);
+  background-color: rgb(170, 219, 193);
+  position: relative;
+  overflow-x: hidden;
+}
+.ventana1 {
+  width: 100% auto;
+  height: 100% auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prueba {
+  width: 120px;
+  height: 140px;
+  background-color: rgb(46, 175, 29);
+  clip-path: polygon(
+    40% 69%,
+    28% 71%,
+    28% 84%,
+    80% 84%,
+    80% 100%,
+    13% 100%,
+    13% 71%,
+    0 71%,
+    19% 49%
+  );
+  position: absolute;
+  left: -70px;
+  bottom: -45px;
+}
+.prueba2 {
+  width: 120px;
+  height: 140px;
+  background-color: rgb(46, 175, 29);
+  clip-path: polygon(
+    82% 18%,
+    100% 17%,
+    100% 82%,
+    62% 82%,
+    62% 93%,
+    37% 77%,
+    61% 54%,
+    61% 66%,
+    82% 66%
+  );
+
+  position: absolute;
+  right: -50px;
+  bottom: -80px;
+}
+.botones {
+  display: block;
+  margin-top: 10px;
+  font-size: 20px;
+  background-color: rgb(127, 219, 255);
+  width: 250px;
+  border: solid 5px rgb(49, 197, 86);
+}
+.variable {
+  font-size: 20px;
+  width: 80px;
+  height: 40px;
+  background-color: rgb(42, 209, 84);
+  color: white;
+  box-shadow: 0 0 10px 5px rgb(88, 61, 240);
+}
+.voltaje1 {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  top: -35px;
+}
+.caja1 {
+  display: inline-block;
+  width: 60px;
+  height: 50px;
+  background-color: rgb(34, 174, 57);
+  margin-right: -5px;
+}
+
+.caja3 {
+  display: inline-block;
+  width: 60px;
+  height: 50px;
+  background-color: rgb(157, 42, 175);
+  margin-right: -5px;
+}
+
+.caja5 {
+  display: inline-block;
+  width: 60px;
+  height: 50px;
+  background-color: rgb(162, 30, 158);
+  margin-right: -5px;
+}
+
+.caja7 {
+  display: inline-block;
+  width: 60px;
+  height: 50px;
+  background-color: rgb(135, 41, 164);
+  margin-right: -5px;
+}
+
+.caja9 {
+  display: inline-block;
+  width: 60px;
+  height: 50px;
+  background-color: rgb(144, 30, 148);
+  margin-right: -5px;
+}
+
+.subcaja {
+  border: solid 5px rgb(32, 21, 103);
+  top: -30px;
+  text-align: center;
+}
+.animacion {
+  display: flex;
+  height: 50px;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.ingreso_datos {
+  margin-left: 3px;
+  margin-top: 40px;
+  margin-right: 50%;
+  text-align: center;
+}
+.mensaje {
+  font-size: 80px;
+  position: absolute;
+}
+.border {
+  color: black;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, 1px 1px 0 white,
+    -1px 1px 0 white;
+  animation: border 2s ease-in-out infinite;
+}
+.wave {
+  color: rgb(238, 39, 13);
+  animation: wave 2s ease-in-out infinite;
+}
+@keyframes wave {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 47%,
+      10% 48%,
+      33% 54%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+    transform: scale(1);
+  }
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+    transform: scale(0.6);
+  }
+}
+@keyframes border {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.6);
+  }
+}
+.mas_cajas {
+  border: solid 5px green;
+}
+.cir_paralelo {
+  border: solid 7px black;
+  border-bottom: none;
+  border-top: none;
+  height: auto;
+  padding: 0 0px;
+  width: 50%;
+  position: fixed;
+  bottom: 354px;
+  right: 80px;
+}
+.contenedor111 {
+  width: auto;
+  height: auto;
+  border-top: solid 7px rgb(2, 2, 2);
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.cajita {
+  position: relative;
+  top: -35px;
+}
+.modal {
+  box-sizing: border-box;
+  width: 105%;
+  height: 100%;
+  background-color: #20bad8;
+  position: fixed;
+  bottom: 0;
+  left: -10px;
+  display: none;
+  opacity: 1;
+}
+.reiniciar {
+  height: 20px;
+  width: 100px;
+  position: absolute;
+  bottom: -20px;
+  left: 35%;
+}
+.muestra_pantalla {
+  position: relative;
+}
+.dani1 {
+  display: inline-block;
+}
+.mel {
+  width: 350px;
+  height: 350px;
+  position: relative;
+  left: 200px;
+}
+.precio {
+  margin: 0%;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  100% {
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@keyframes reiniciar {
+  0% {
+    font-size: 30px;
+    width: auto;
+    height: auto;
+    opacity: 0;
+  }
+}
